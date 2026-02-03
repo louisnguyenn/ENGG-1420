@@ -1,3 +1,4 @@
+package Assignments.A2;
 import java.util.Scanner;
 
 public class A2Q4 {
