@@ -3,15 +3,13 @@ public class Person {
     private String lastName;
     private String nationalCode;
 
-    public Person() {
-    }
-
     public Person(String name, String lastName, String nationalCode) {
         setName(name);
         setLastName(lastName);
         setNationalCode(nationalCode);
     }
 
+    // setters
     public void setName(String name) {
         this.name = name;
     }
@@ -22,5 +20,18 @@ public class Person {
 
     public void setNationalCode(String nationalCode) {
         this.nationalCode = nationalCode;
+    }
+
+    // getters
+    public String getName() {
+        return this.name;
+    }
+
+    public String getLastName() {
+        return this.lastName;
+    }
+
+    public String getNationalCode() {
+        return this.nationalCode;
     }
 }
